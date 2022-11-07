@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use Illuminate\Http;
-use Illuminate\Http\Client\Request;
+use Illuminate\Http\Request;
 
-class TopicController extends Controller
+class UserController extends Controller
 {
    public function index(){
     return User::paginate();

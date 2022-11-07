@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use Illuminate\Http;
-use Illuminate\Http\Client\Request;
+use Illuminate\Http\Request;
 
-class TopicController extends Controller
+class PostController extends Controller
 {
    public function index(){
     return Post::paginate();
