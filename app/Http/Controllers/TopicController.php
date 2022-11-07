@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Topic;
-use Illuminate\Http;
-use Illuminate\Http\Client\Request;
+use Illuminate\Http\Request;
 
 class TopicController extends Controller
 {
